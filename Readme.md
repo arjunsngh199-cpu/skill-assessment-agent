@@ -35,6 +35,45 @@ User Input → Skill Extraction → Comparison → Gap Detection → Questions �
 
 ---
 
+## Architecture
+
+User Input (JD + Resume)  
+↓  
+Skill Extraction  
+↓  
+Skill Comparison  
+↓  
+Gap Detection  
+↓  
+Interview Question Generation  
+↓  
+Learning Plan Generation  
+↓  
+Final Output  
+
+---
+
+## Scoring Logic
+
+The system evaluates candidate fit based on missing skills:
+
+- Missing skills ≤ 2 → Strong Match  
+- Missing skills > 2 → Needs Improvement  
+
+The approach focuses on clarity, usability, and reliability using rule-based extraction and structured outputs.
+
+## Sample Input & Output
+
+### Input:
+Job Description: Frontend Developer (HTML, CSS, JavaScript, React)  
+Resume: HTML, CSS, basic JavaScript  
+
+### Output:
+- Matching Skills: HTML, CSS, JavaScript  
+- Missing Skills: React  
+- Interview Questions generated  
+- Learning Plan generated  
+
 ## Author
 
 Arjun Singh
