@@ -1,12 +1,12 @@
-# 🚀 AI Skill Assessment & Personalized Learning Agent
+#  AI Skill Assessment & Personalized Learning Agent
 
-## 📌 Overview
+##  Overview
 
 This project evaluates a candidate’s skills by comparing their resume with a job description. It identifies gaps, generates interview questions, and provides a personalized learning plan.
 
 ---
 
-## 🎯 Features
+## Features
 
 * Skill extraction from JD and Resume
 * Matching and missing skills detection
@@ -16,7 +16,7 @@ This project evaluates a candidate’s skills by comparing their resume with a j
 
 ---
 
-## ▶️ Run Locally
+## Run Locally
 
 1. Install dependencies:
    pip install gradio
@@ -29,12 +29,12 @@ This project evaluates a candidate’s skills by comparing their resume with a j
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 User Input → Skill Extraction → Comparison → Gap Detection → Questions → Learning Plan
 
 ---
 
-## 👤 Author
+## Author
 
 Arjun Singh
